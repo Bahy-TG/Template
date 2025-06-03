@@ -1,4 +1,3 @@
-import 'dart:ui';
 import 'package:flutter/material.dart';
 
 TextStyle titleStyle({
@@ -8,6 +7,6 @@ TextStyle titleStyle({
   return TextStyle(
     color: color,
     fontSize: textSize,
-    fontWeight: FontWeight.bold,
+    fontWeight: FontWeight.w700,
   );
 }
